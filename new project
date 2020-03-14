@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML & CSS</title>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+    </head>
+    <body>
+        <img src="cover.jpg" title="Web design languages" alt="Web design languages" style="width: 1000px; height: 500px;"><br><br>
+        <fieldset>
+            <legend>HTML information</legend>
+        <table>
+            <tr>   
+                <td>    
+                    <h3>HTML (Hyper Text Markup Language):</h3><br><dl>
+                    <dt><span class="Web design language">HTML</span> describes the structure of a web page.</dt>
+                    <dt><span class="Web design language">HTML</span> consists of elements. <span class="Web design language">HTML</span> elements tell the browser how to display the content.</dt>
+                    <dt><span class="Web design language">HTML</span> elements are represented by tags.</dt>
+                    <br><input type="submit" value="Start"><br><br><br></dl>       
+                </td>
+                <td>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="html.jpg" title="HTML" alt="HTML" style="width: 200px" height="200px">
+                </td>
+            </tr>
+        </table>
+        </fieldset>
+        <fieldset>
+            <legend>CSS information</legend>
+        <table>
+            <tr>        
+                <td>
+                    <img src="css.jpg" title="CSS" alt="CSS" style="width: 300px" height="200px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td> 
+                <td>
+                    <h3>CSS (Hyper Text Markup Language):</h3><br>
+                    <dl>
+                    <dt><span class="Web design language">CSS</span> is a languagethat describes the style of an HTML document.</dt>
+                    <dt><span class="Web design language">CSS</span> describes how HTML should be displayed. This tutorial will teach you <span class="Web design language">CSS</span> from basics to advance.</dt>
+                    </dl>
+                    <input type="submit" value="Start"> 
+                </td>
+            </tr>
+        </table>
+        </fieldset>
+        <fieldset>
+            <legend>Extra information</legend>
+        <label>which language do you prefer?</label><br>
+            <input type="text" name="HTML or CSS" placeholder="choose HTML or CSS"><br><br>
+        <label>do you know any other languages?</label><br>
+            <input type="radio" name="other languages" value="yes">Yes<br>
+            <input type="radio" name="other languages" value="no">No<br><br>
+        <label>if yes please choose the number of languages:</label>    
+            <select name="number of languages">
+            <option value="" hidden> </option>
+            <option value="1">1 </option>
+            <option value="2"> 2 </option>
+            <option value="3" > 3 </option>
+            </select><br><br>
+        <label>please choose the other languages</label><br>
+                <input type="checkbox" name="choose of other languages" value="javascript">Javascript<br>
+                <input type="checkbox" name="choose of other languages" value="jquery">Jquery<br>
+                <input type="checkbox" name="choose of other languages" value="python">Python<br><br>
+            <label>Any comments</label><br>
+            <textarea></textarea>
+        </fieldset>
+        <p>to learn about any language please visit the next sites:</p>
+        <ul>
+            <li>
+                <a href="https://www.youtube.com/channel/UCSNkfKl4cU-55Nm-ovsvOHQ">ELZERO course on youtube</a></li>
+                <li><a href="https://www.w3schools.com/">w3schools site</a>
+            </li>    
+        </ul>
+        <h4>to contact:</h4>
+        <div>
+        <a href="https://www.facebook.com/profile.php?id=100005662651735">My Facebook accont</a>
+        </div>
+    </body>
+</html>
